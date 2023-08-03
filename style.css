@@ -10,17 +10,17 @@ body {
   border-radius: 5px;
 }
 
-label {
-  margin-top: 10px;
-  margin-left: 30px;
+.label {
+  margin-top: 30px;
+  margin-left: 60px;
 }
 
-input[type="number"],
-select {
+.input,
+.currency {
   margin-bottom: 10px;
 }
 
-button {
+.button {
   display: block;
   margin: 10px auto;
   padding: 5px;
@@ -29,13 +29,13 @@ button {
   cursor: pointer;
 }
 
-#result {
+.result {
   text-align: center;
   font-size: 18px;
   font-weight: bold;
   margin-top: 20px;
 }
 
-h1 {
+.heading {
   text-align: center;
 }
